@@ -1,0 +1,56 @@
+# Qt Creator and Qt project files
+*.pro.user
+*.pro.user.*
+*.qmake.stash
+*.qmake.cache
+
+# Qt build directory
+build/
+
+# Compiled object files
+*.o
+*.obj
+
+# Compiled dynamic libraries
+*.dll
+*.so
+*.dylib
+
+# Compiled static libraries
+*.a
+*.lib
+
+# Executable files
+*.exe
+*.out
+
+# MOC, UIC, and RCC files
+moc_*.cpp
+qrc_*.cpp
+ui_*.h
+
+# Database files
+alimentasys.db
+
+# Debugging files
+*.dSYM/
+*.ipdb
+*.pdb
+*.pch
+
+# Temporary and backup files
+*~
+*.swp
+*.bak
+*.tmp
+*.log
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Git ignore for IDE and Gitflow files
+.idea/
+.vscode/
+
+/CMakeLists.txt.user
