@@ -2,6 +2,7 @@
 #define ALIMENTASYSMAIN_H
 
 #include <QMainWindow>
+#include <QMdiArea>
 
 QT_BEGIN_NAMESPACE
 namespace Ui {
@@ -17,7 +18,13 @@ public:
     AlimentaSysMain(QWidget *parent = nullptr);
     ~AlimentaSysMain();
 
+    void openUserManagement();
+
+private slots:
+    void on_actionUser_Management_triggered();
+
 private:
     Ui::AlimentaSysMain *ui;
+    QMdiArea *mdiArea;  // Declara mdiArea como puntero
 };
 #endif // ALIMENTASYSMAIN_H
