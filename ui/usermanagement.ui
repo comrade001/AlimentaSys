@@ -56,44 +56,44 @@
     </widget>
    </item>
    <item>
-    <widget class="QLabel" name="lblLastName">
+    <widget class="QLabel" name="lblLastNamePaternal">
      <property name="text">
-      <string>Last Name:</string>
+      <string>Last Name Paternal:</string>
      </property>
     </widget>
    </item>
    <item>
-    <widget class="QLineEdit" name="txtLastName">
+    <widget class="QLineEdit" name="txtLastNamePaternal">
      <property name="placeholderText">
-      <string>Enter last name</string>
+      <string>Enter last name paternal</string>
      </property>
     </widget>
    </item>
    <item>
-    <widget class="QLabel" name="lblMiddleName">
+    <widget class="QLabel" name="lblLastNameMaternal">
      <property name="text">
-      <string>Middle Name (Optional): </string>
+      <string>Last Name Maternal:</string>
      </property>
     </widget>
    </item>
    <item>
-    <widget class="QLineEdit" name="txtMiddleName">
+    <widget class="QLineEdit" name="txtLastNameMaternal">
      <property name="placeholderText">
-      <string>Enter middle name</string>
+      <string>Enter last name maternal</string>
      </property>
     </widget>
    </item>
    <item>
-    <widget class="QLabel" name="lblEmployeeID">
+    <widget class="QLabel" name="lblEmployeeId">
      <property name="text">
-      <string>Employee ID:</string>
+      <string>Employee Id:</string>
      </property>
     </widget>
    </item>
    <item>
-    <widget class="QLineEdit" name="txtEmployeeID">
+    <widget class="QLineEdit" name="txtEmployeeId">
      <property name="placeholderText">
-      <string>Enter employee ID</string>
+      <string>Enter employee Id</string>
      </property>
     </widget>
    </item>
